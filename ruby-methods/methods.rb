@@ -22,8 +22,6 @@ def name_method()
     puts names.reverse
 end
 
-
-
 ## Q5 Ruby program to illustrate the passing of parameters to a method
 # Output 
 #ID is: 1
