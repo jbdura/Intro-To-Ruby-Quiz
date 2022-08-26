@@ -1,6 +1,12 @@
 # Ruby Methods
 ## Q1 Write any simple Ruby Program to illustrate the defining and calling of method
 
+def Members
+    puts "Please keep time, we can't afford to miss the train"
+end
+
+members
+
 ## Q2 You have a string, "I love espresso", return the length of the string
 def count_string()
     sample = "I love espresso"
