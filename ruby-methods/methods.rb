@@ -32,6 +32,18 @@ all_about(var1, var2)
 ##Q4 Write a Ruby program which accept the user's first and last name and print them in reverse order with a 
 #space between them.
 
+def name_method()
+    puts " First Name: "
+    fname = gets.chomp
+
+    puts " Last Name: "
+    lname = gets.chomp
+
+    names = "#{fname} #{lname}"
+    puts names
+    puts names.reverse
+end
+
 ## Q5 Ruby program to illustrate the passing of parameters to a method
 # Output 
 #ID is: 1
@@ -43,6 +55,3 @@ all_about(var1, var2)
 #Name is: XYZ
 
 
-# nimeongeza hii line
-
-# This was a demo
