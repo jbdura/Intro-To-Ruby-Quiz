@@ -1,12 +1,13 @@
 # Ruby Methods
 ## Q1 Write any simple Ruby Program to illustrate the defining and calling of method
-def calling()
-end
-
 
 ## Q2 You have a string, "I love espresso", return the length of the string
-sapmple = "I love espresso"
-sapmple.
+def count_string()
+    sample = "I love espresso"
+    sample.length
+end
+
+puts count_string
 
 ## Q3 Write a method where var1 and var2 are the parameters. Call the method. The statements to be executed are:
 #"Phase-1 was all about Introduction to Programming."
