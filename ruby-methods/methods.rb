@@ -11,15 +11,15 @@
 #space between them.
 
 def name_method()
-puts " First Name: "
-fname = gets.chomp
+    puts " First Name: "
+    fname = gets.chomp
 
-puts " Last Name: "
-lname = gets.chomp
+    puts " Last Name: "
+    lname = gets.chomp
 
-names = "#{fname} #{lname}"
-puts names
-puts names.reverse
+    names = "#{fname} #{lname}"
+    puts names
+    puts names.reverse
 end
 
 
