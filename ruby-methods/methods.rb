@@ -54,4 +54,12 @@ end
 #Color is: Black
 #Name is: XYZ
 
+def color_param(id, name, color)
+    puts "#ID is: #{id}, #Color is: #{color}, #Name is: #{name}"
+end
+
+color_param(1, "ABC", "Red")
+color_param(2, "XYZ", "Black")
+
+# nimeongeza hii line
 
