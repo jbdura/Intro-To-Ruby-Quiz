@@ -13,6 +13,16 @@ puts count_string
 #"Phase-1 was all about Introduction to Programming."
 #"Phase-2 was all about React."
 
+var1 = 'Phase-1'
+var2 = 'Phase-2'
+
+def all_about(var1 = "Phase-1", var2 = "Phase-2")
+  puts "#{var1} was all about Introduction to Programming."
+  puts "#{var2} was all about React"
+end
+
+all_about(var1, var2)
+
 ##Q4 Write a Ruby program which accept the user's first and last name and print them in reverse order with a 
 #space between them.
 
@@ -28,3 +38,5 @@ puts count_string
 
 
 # nimeongeza hii line
+
+# This was a demo
